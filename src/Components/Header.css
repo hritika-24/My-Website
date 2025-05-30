@@ -1,0 +1,77 @@
+:root{
+    --primary-color:#189ba6;
+}
+
+.Header{
+    background-color: #fff;
+    border: 1px solid rgb(224, 224, 224);
+    /* padding: 10px 20px 10px 0; */
+    line-height: 50px;
+    font-size: 15px;
+}
+.Header .navbar .collapse{
+    /* border: 2px solid red; */
+    width: fit-content;
+    /* text-align: center; */
+    /* display: flex; */
+    justify-content: end;
+}
+.Header .navbar ul.dropdown-menu{
+    /* border : 2px solid var(--primary-color); */
+    background-color: #fff6d7;
+}
+.Header .navbar .dropdown-menu li{
+    background-color: #f7f4f4;
+    /* padding: 20px; */
+    margin: -10px;
+}
+.Header .navbar .dropdown-menu li a{
+    /* border: 2px solid red; */
+    padding: 0 20px ;
+    text-align: left;
+    /* margin: -10px; */
+}
+.Header .navbar .dropdown-menu li a:hover{
+    color:rgb(197, 154, 13)
+}
+.Header .navbar a{
+    color:var(--primary-color) ;
+}
+.Header .navbar a.navbar-brand{
+    /* border:2px solid var(--primary-color) ; */
+    padding-right: 250px;
+}
+.Header  .navbar a.btn{
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: 15px;
+    border-radius: 0;
+    transition: ease 0.5s;
+}
+.Header  .navbar a.btn:hover{
+    transform: scale(1.05);
+}
+
+.Header  .navbar a.whatsapp{
+    color:#25d366;
+    font-size: 30px;
+    /* line-height: ; */
+    margin: 0 10px;
+    margin-top: -5px;
+    /* border: 2px solid red; */
+    transition: ease 0.5s;
+}
+.Header  .navbar a.whatsapp:hover{
+    font-size: 45px;
+    /* padding:  0; */
+
+}
+.Header{
+
+}
+.Header{
+
+}
+.Header{
+
+}
