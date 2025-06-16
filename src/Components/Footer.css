@@ -1,0 +1,114 @@
+.Footer{
+    /* border: 2px solid red; */
+
+}
+.Footer .logo-tandc-common-div{
+    /* border: 2px solid rgb(156, 39, 111); */
+    display: flex;
+    margin: 35px 0;
+
+}
+.Footer .logo-and-sociallinks {
+     /* border: 2px solid rgb(28, 25, 221); */
+     width: 250px;
+     margin-left: 150px;
+    
+}
+.Footer .logo-and-sociallinks .sociallinks{
+
+     /* border: 2px solid rgb(70, 69, 90); */
+     margin-top: 20px;
+    
+     
+}
+.Footer .logo-and-sociallinks a {
+    margin-right: 15px;
+    font-size: 14px;
+    background-color: rgb(250, 241, 241);
+    border-radius: 50%;
+    color:rgb(192, 140, 8);
+    padding: 6px;
+    padding-top: 2px;
+   
+ 
+    
+}
+.Footer .logo-and-sociallinks .logo {
+     /* border: 2px solid rgb(6, 51, 20); */
+
+}
+.Footer .logo-and-sociallinks .logo img {
+   height: 80px;
+   /* width: 100px; */
+
+}
+.Footer .t-and-c{
+    /* border: 2px solid rgb(181, 207, 33); */
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Footer .t-and-c p{
+    margin-top: 30px;
+    color: rgb(122, 122, 122);
+}
+.Footer .copyright{
+    /* border: 2px solid rgb(0, 0, 0); */
+    text-align: center;
+    padding: 20px;
+}
+.Footer .text{
+    text-align: center;
+    background-color: #ebe4e4;
+    font-size: 14px;
+    padding: 8px;
+    padding-top: 30px;
+}
+.Footer .hr hr {
+    width: 90%;
+}
+@media(max-width:900px){
+    .Footer .logo-and-sociallinks a {
+    margin:0 10px;
+    font-size: 14px;
+    background-color: rgb(250, 241, 241);
+    border-radius: 50%;
+    color:rgb(192, 140, 8);
+    padding: 6px;
+    padding-top: 2px;
+   
+ 
+    
+}
+.Footer .t-and-c p{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    color: rgb(122, 122, 122);
+    font-size: 12px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.Footer .logo-tandc-common-div{
+    /* border: 2px solid rgb(156, 39, 111); */
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Footer .logo-and-sociallinks {
+     /* border: 2px solid rgb(28, 25, 221); */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     margin-left: 0;
+
+    
+}
+}

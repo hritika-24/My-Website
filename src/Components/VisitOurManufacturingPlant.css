@@ -1,0 +1,144 @@
+.VisitOurManufacturingPlant {
+    background-color: #555451;
+    color: white;
+    padding: 20px;
+}
+
+.VisitOurManufacturingPlant h2 {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 2rem;
+}
+
+.image-and-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.images-div,
+.details-div {
+    flex: 1 1 45%;
+    min-width: 300px;
+    /* border: 2px solid red; */
+}
+.details-div{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.images-div img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.details-div {
+    padding: 20px;
+}
+
+.details-div .address {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.details-div .visit,
+.details-div ul {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.video-and-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+    /* border: 2px solid blue; */
+}
+
+.videos-div, .map-div {
+    /* flex: 1 1 45%;
+     */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 300px; */
+    /* border: 2px solid rgb(51, 255, 0); */
+
+}
+.videos-div{
+    width: 70%;
+}
+.videos-div #carouselExampleInterval2{
+    margin-left: 200px;
+}
+.videos-div video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.map-div a {
+    /* display: inline-block; */
+    display: flex;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    /* border:2px solid red; */
+    margin-left: 130px;
+}
+.map-div a:hover{
+    color: goldenrod;
+    background-color:white;
+    border: 1px solid goldenrod;
+}
+@media (max-width: 768px) {
+    .image-and-details,
+    .video-and-map {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .images-div, .details-div,
+    .videos-div, .map-div {
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .details-div {
+        padding: 10px 0;
+    }
+
+    .VisitOurManufacturingPlant h2 {
+        font-size: 1.5rem;
+        padding: 20px 10px;
+    }
+
+    .details-div .address,
+    .details-div .visit,
+    .details-div ul {
+        font-size: 1rem;
+    }
+
+    .map-div a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .videos-div #carouselExampleInterval2{
+        margin-left:0;
+}
+}

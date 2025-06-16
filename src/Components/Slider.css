@@ -1,0 +1,29 @@
+.Slider{
+    border: 2px solid rgb(201, 198, 198);
+    /* height:565px */
+    padding-top: 110px;
+}
+
+.Slider button{
+    /* border: 2px solid red */
+}
+
+.Slider .carousel-item{
+    width:100%;
+    /* border:2px solid red; */
+    /* height: 500px; */
+}
+.Slider .carousel-item img{
+    /* height: 100%; */
+    width: 100%;
+}
+
+@media (max-width:900px) {
+    .Slider .carousel-item,.Slider .carousel-item img{
+        height: 20vh;
+    }
+
+    
+}
+
+

@@ -1,0 +1,150 @@
+.HomeInteriorMadeEasy{
+    /* border:2px solid red; */
+    
+}
+
+.HomeInteriorMadeEasy .interior-made-easy{
+    /* border:2px solid grey; */
+    margin-top: 50px;
+}
+
+.HomeInteriorMadeEasy .interior-made-easy h2{
+    /* border:2px solid grey; */
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.HomeInteriorMadeEasy .interior-made-easy p{
+    /* border:2px solid grey; */
+    margin: 50px 0;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.HomeInteriorMadeEasy .interior-made-easy .img-div{
+    /* border:2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+
+.HomeInteriorMadeEasy .interior-made-easy .img-div img{
+    /* border:2px solid grey; */
+    width: 300px;
+    height:300px;
+    margin-bottom: 20px;
+}
+
+.HomeInteriorMadeEasy .interior-made-easy .img-div .steps{
+    /* border: 2px solid blue; */
+}
+
+.HomeInteriorMadeEasy .interior-made-easy .img-div .steps .num{
+    /* border: 2px solid grey; */
+    font-size: 38px;
+    
+}
+
+.HomeInteriorMadeEasy .interior-made-easy .img-div .steps .txt{
+    /* border: 2px solid grey; */
+    font-size: 18px;
+    padding: 10px;
+}
+
+.HomeInteriorMadeEasy .interior-made-easy-form-button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid red; */
+    margin-top: 20px;
+}
+
+.HomeInteriorMadeEasy  .interior-made-easy-form-button-div a{
+    /* border:2px solid var(--primary-color); */
+    border-radius: 0;
+    background-color:var(--primary-color);
+    color:white;
+    padding: 10px 20px;
+}
+.HomeInteriorMadeEasy  .interior-made-easy-form-button-div a:hover{
+    color: goldenrod;
+    background-color:white;
+    border: 1px solid goldenrod;
+
+}
+
+/* projects delievered  */
+
+.HomeInteriorMadeEasy .projects-delievered{
+    /* border: 2px solid grey; */
+    margin-top: 50px;
+}
+.HomeInteriorMadeEasy .projects-delievered h2{
+    /* border: 2px solid grey; */
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    
+}
+.HomeInteriorMadeEasy .projects-delievered .img-div{
+    /* border: 2px solid red; */
+    
+}
+.HomeInteriorMadeEasy .projects-delievered .img-div-specific{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+    margin-bottom: 40px;
+
+}
+.HomeInteriorMadeEasy .projects-delievered .img-div img{
+    /* border: 2px solid grey; */
+    width:80%;
+    height: 70vh;
+    
+}
+
+@media (max-width:900px) {
+    .HomeInteriorMadeEasy .projects-delievered .img-div img{
+    /* border: 2px solid grey; */
+    width:80%;
+    height: auto;
+    
+}
+}
+.HomeInteriorMadeEasy .projects-delievered .img-div p{
+    /* border: 2px solid grey; */
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    /* width:80% */
+    
+}
+
+.HomeInteriorMadeEasy .projects-delievered-form-button-div{
+    /* border: 2px solid grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HomeInteriorMadeEasy .projects-delievered-form-button-div a{
+    /* border: 2px solid grey; */
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0;
+}
+
+.HomeInteriorMadeEasy .projects-delievered-form-button-div a:hover{
+    color: goldenrod;
+    background-color: white;
+    border: 1px solid goldenrod;
+}

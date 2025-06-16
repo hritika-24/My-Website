@@ -1,0 +1,255 @@
+.design-gallery {
+    padding-top: 150px;
+}
+.design-gallery .para{
+    font-size: 18px;
+    color: rgb(39, 37, 37);
+}
+.design-gallery .shapes{
+    /* border: 2px solid red; */
+    width: 70%;
+}
+.design-gallery .shapes .carousel-inner img {
+    height: 500px;
+}
+
+.design-gallery .images-sliding{
+    /* border: 2px solid rgb(35, 18, 196); */
+    height: 100px;
+}
+.design-gallery .shapes .img-details-and-btn{
+    /* border: 2px solid rgb(240, 189, 22); */
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: baseline;
+}
+.design-gallery .images-details{
+    /* border: 2px solid rgb(13, 94, 100); */
+     /* padding:  20px; */
+
+}
+.design-gallery .images-details .extra-info{
+    /* border: 2px solid rgb(206, 241, 7); */
+}
+.design-gallery .images-details .extra-info .extra-info-para{
+    font-size: 18px;
+}
+.design-gallery .images-details .form-btn.btn{
+        /* border: 2px solid rgb(0, 0, 0); */
+    color: white;
+    background-color: goldenrod;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 0;
+
+}
+.design-gallery .images-details .form-btn.btn:hover{
+    /* border: 2px solid rgb(0, 0, 0); */
+    color:goldenrod;
+    background-color:white;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: 1px solid goldenrod;
+}
+.design-gallery .images-details .extra-info .extra-info-features{
+    font-size: 20px;
+
+}
+.design-gallery .images-details .extra-info .extra-info-list {
+     /* border: 2px solid violet; */
+     margin-left: -10px;
+     margin-top: -20px;
+     /* margin-top: 10x; */
+}
+.design-gallery .images-details .extra-info .extra-info-list li{
+    font-size: 18px;
+    /* margin-top: 12px; */
+    /* list-style-type: circle; */ 
+}
+.design-gallery .images-details .extra-info .extra-info-list li::marker{
+    color: rgb(194, 178, 178);
+    font-size: 24px;
+}
+.design-gallery .images-details button.show-more {
+    font-size: 20px;
+    color: goldenrod;
+    transition: ease-in 2s;
+    margin-top: -25px !important;
+    font-weight: bold;
+
+}
+.design-gallery .images-details button.show-less{
+    font-size: 20px;
+    color: goldenrod;
+    transition: ease-in 2s;
+    margin-top:-25px !important ;
+    font-weight: bold;
+
+}
+/* Modular kitchen styling */
+.design-gallery .whyourkitchen{
+    width: 100% !important; 
+    /* border: 2px solid rgb(168, 12, 240); */
+    background-color: rgb(255, 249, 166);
+    /* margin: 0px 20px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    
+    
+}
+.design-gallery .whyourkitchen .whyourkitchen-reason{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 0px 20px;
+}
+.design-gallery .whyourkitchen h3{
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.design-gallery .whyourkitchen .whyourkitchen-reason .icon-para-div1 {
+    /* border: 2px solid rgb(29, 140, 168); */
+    text-align: center;
+}
+.design-gallery .whyourkitchen .whyourkitchen-reason .icon-para-div1 .icon {
+    background-color: #645858;
+    font-size: 35px;
+    /* padding: 20px; */
+    border-radius: 50%;
+    color: white;
+    outline: 20px solid  #645858;
+}
+.design-gallery .whyourkitchen .whyourkitchen-reason .icon-para-div1 .whyourkitchen-para{
+    margin-top: 40px;
+    font-size: 24px;
+}
+/* Modular kitchen styling */
+
+
+
+
+@media(max-width:900px){
+    .design-gallery h3{
+    font-size: 20px;
+    }
+    .design-gallery .para{
+    font-size: 16px;
+    /* color: rgb(39, 37, 37); */
+    }
+    .design-gallery .shapes{
+    /* border: 2px solid red; */
+    width: 100%;
+    }
+    .design-gallery .shapes .carousel-inner img {
+    height: 250px;
+    }
+    .design-gallery .shapes .img-details-and-btn{
+    /* border: 2px solid rgb(240, 189, 22); */
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: baseline;
+
+}
+.design-gallery .images-details .form-btn.btn{
+    /* border: 2px solid rgb(0, 0, 0); */
+    color: white;
+    background-color: goldenrod;
+    padding: 0px 25px;
+    font-size: 16px;
+    border-radius: 0;
+}
+.design-gallery .images-details .form-btn.btn:hover{
+    /* border: 2px solid rgb(0, 0, 0); */
+    color:goldenrod;
+    background-color:white;
+    padding: 0px 25px;
+    font-size: 16px;
+    border: 1px solid goldenrod;
+
+}
+.design-gallery .images-details .extra-info .extra-info-features{
+    font-size: 18px;
+
+}
+.design-gallery .images-details .extra-info .extra-info-para{
+    font-size: 14px;
+}
+.design-gallery .images-details button.show-more {
+    font-size: 14px;
+    color: goldenrod;
+    transition: ease-in 2s;
+}
+.design-gallery .images-details button.show-less{
+    font-size: 14px;
+    color: goldenrod;
+    transition: ease-in 2s;
+}
+.design-gallery .images-details .extra-info .extra-info-list li{
+    font-size: 14px;
+    /* margin-top: 12px; */
+    /* list-style-type: circle; */ 
+}
+.design-gallery .images-details .extra-info .extra-info-list li::marker{
+    color: rgb(194, 178, 178);
+    font-size: 18px;
+}
+
+
+/* Modular kitchen styling */
+.design-gallery .whyourkitchen{
+    width: 100%;
+    /* border: 2px solid rgb(168, 12, 240); */
+    background-color: rgb(255, 249, 166);
+    margin-top: 0px;
+    margin-bottom:  80px;
+    padding:10px 0px;
+   
+}
+.design-gallery .whyourkitchen .whyourkitchen-reason{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: justify;
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+.design-gallery .whyourkitchen .whyourkitchen-reason .icon-para-div1 {
+    /* border: 2px solid rgb(29, 140, 168); */
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 10px;
+    margin-left: 50px;
+}
+.design-gallery .whyourkitchen .whyourkitchen-reason .icon-para-div1 .icon {
+    background-color: #645858;
+    font-size: 20px;
+    /* padding: 20px; */
+    border-radius: 50%;
+    color: white;
+    outline: 10px solid  #645858;
+    margin-right: 20px;
+    
+}
+.design-gallery .whyourkitchen .whyourkitchen-reason .icon-para-div1 .whyourkitchen-para{
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.design-gallery .whyourkitchen h3{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 18px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  
+}
+}

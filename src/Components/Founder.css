@@ -1,0 +1,110 @@
+.founder{
+    margin-top: 50px;
+}
+.founder .images-amd-details{
+    display: flex;
+    background-color: #fffefe;
+    justify-content: space-evenly;
+    /* border: 2px solid blue; */
+}
+.founder .images-amd-details .details{
+    width: 50%;
+    font-size: 16px;
+}
+.founder .images-amd-details .details ul li{
+    list-style-type:square ;
+    margin-left: -15px;
+    margin-bottom: 8px;
+}
+.founder .images-amd-details .images{
+    width: 30%;
+}
+.founder .images-amd-details .images img{ 
+   /* height: 250px; */
+   width:  190px;
+   border-radius: 10px;
+}
+.founder .contactdetails{
+    margin-top: 70px;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+}
+.founder .contactdetails a{
+    color:rgb(71, 64, 64);
+    margin:0  80px;
+    text-decoration: none;
+}
+
+
+/*  */
+@media(max-width:900px){
+.founder .images-amd-details{
+    display: block;
+    /* border: 2px solid blue; */
+}
+    .founder .images-amd-details .details h2{
+     /* border: 2px solid red; */
+    }
+    .founder .images-amd-details .details{
+    width: 100%;
+    font-size: 16px;
+}
+.founder .images-amd-details .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 0;
+}
+.founder .images-amd-details .images img{ 
+   /* height: 250px; */
+   /* width:  40%; */
+   border-radius: 10px;
+   /* padding: 30px; */
+   float: left;
+}
+.founder .images-amd-details .images  .found{
+    /* width: 40%; */
+}
+.founder .images-amd-details .images .founder_2{
+    float: none;
+    display: none;
+}
+.founder .contactdetails-div{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.founder .contactdetails-div .contactdetails{
+    /* border: 2px solid rgb(136, 58, 199); */
+    margin-top: -10px;
+
+}
+
+.founder .contactdetails a{
+    text-align: justify;
+    display: block;
+    /* color: black; */
+    margin:0  ;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    /* padding:  0 24px;  */
+    /* text-decoration: none; */
+}
+.founder .contactdetails a .icon{
+    line-height: 200px;
+    /* line-height: 20px; */
+    font-size: 22px;
+    margin-right: 5px;
+   
+    /* margin-bottom: 15px; */
+    
+}
+
+}
