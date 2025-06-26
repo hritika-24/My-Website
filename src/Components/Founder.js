@@ -15,7 +15,7 @@ const Founder = () => {
                     Having studied and worked as architects for 15 years, we founded Artical Art in 2015 to extend the intelligent and beautiful home interior design to a wider range of budgets.<br/><br/>
                     Obsessively quality focused, we do most things in-house – with expert designers, our own factory, and trained carpenters – to ensure flawless execution<br/><br/>
                     We consistently focus on solving customer needs, with a big focus on space optimisation, to deliver up to 20% extra space to your home.<br/><br/>
-                    Our key strengths include:<br/><br/>
+                    Our key strengths include :<br/>
                 </p>
                     <ul>
                         <li>We provide Design for both Commercial and Residential</li>
@@ -43,7 +43,7 @@ const Founder = () => {
         <div className='contactdetails'>
             <a href="https://wa.me/917666325325?text=Enquiry%20for%20Interior%20Designing" target='_blank'><IoLogoWhatsapp className='icon'/>+91-7666325325</a>
             <a href = 'mailto:support@articalart.com'><MdEmail className='icon'/>support@articalart.com</a>
-            <a href='tel:+917666325325'><FaPhoneAlt className='icon'/>+91-7666325325</a>
+            <a href='tel:+917666326326'><FaPhoneAlt className='icon'/>+91-7666326326</a>
         </div>
     </div>
 

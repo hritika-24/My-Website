@@ -8,7 +8,7 @@ const Form = () => {
     name: '',
     phone: '',
     location: '',
-    projectType: '' // New field
+    projectType: '' // New field,
   });
 
   const handleChange = (e) => {

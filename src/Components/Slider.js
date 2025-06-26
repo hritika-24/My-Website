@@ -9,7 +9,7 @@ import slider3 from "../assets/slider/slider (3).png"
 //logo
 // import logo from "../assets/logo/logo.png"
 
-const Slider = () => {
+const Slider = ({details}) => {
   return (
     <div className='Slider'>
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">

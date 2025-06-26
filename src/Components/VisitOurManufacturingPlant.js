@@ -101,8 +101,7 @@ const VisitOurManufacturingPlant = () => {
             <div className='video-and-map'>
 
               <div className='map-div'>
-                < a href='https://www.google.com/maps/place/JH+Wood+Firms+Pvt.Ltd./@19.218265,73.115728,14z/data=!4m6!3m5!1s0x3be795bfa0094c45:0x14ffaa78dc67cf91!8m2!3d19.2182651!4d73.1157284!16s%2Fg%2F11bw5m7wbv?hl=en-US&entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D'className='btn'>Get Direction</a>
-                
+                < a href='https://www.google.com/maps/place/JH+Wood+Firms+Pvt.Ltd./@19.218265,73.115728,14z/data=!4m6!3m5!1s0x3be795bfa0094c45:0x14ffaa78dc67cf91!8m2!3d19.2182651!4d73.1157284!16s%2Fg%2F11bw5m7wbv?hl=en-US&entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D'className='btn'>Get Direction</a>         
                     
               </div>
               <div className='videos-div'>

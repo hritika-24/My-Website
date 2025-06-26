@@ -36,16 +36,16 @@ const [isOpen, setIsOpen] = useState(false);
                     <li><Link className="dropdown-item" to="/modularkitchen" onClick={closeNavbar}>Modular Kitechen Designs</Link></li>
                     {/* <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Customise Your Kitchen</Link></li> */}
                     <li><Link className="dropdown-item" to="/wardrobe"  onClick={closeNavbar}>Wardrobe Designs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Bedroom Designs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Living Room Designs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Space Saving Designs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Dining Room Designs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Home Office Designs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Kids Bedroom Designs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Bathroom Designs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>1 BHK Interior Designs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>2 BHK Interior Designs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>3 BHK Interior Designs</Link></li>
+                    <li><Link className="dropdown-item" to="/bedroom"  onClick={closeNavbar}>Bedroom Designs</Link></li>
+                    <li><Link className="dropdown-item" to="/livingroom"  onClick={closeNavbar}>Living Room Designs</Link></li>
+                    <li><Link className="dropdown-item" to="/spacesavingdesigns"  onClick={closeNavbar}>Space Saving Designs</Link></li>
+                    {/* <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Dining Room Designs</Link></li> */}
+                    {/* <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Home Office Designs</Link></li> */}
+                    {/* <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Kids Bedroom Designs</Link></li> */}
+                    {/* <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Bathroom Designs</Link></li> */}
+                    {/* <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>1 BHK Interior Designs</Link></li> */}
+                    {/* <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>2 BHK Interior Designs</Link></li> */}
+                    {/* <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>3 BHK Interior Designs</Link></li> */}
                   </ul>
                 </li>
                 <li className="nav-item">
@@ -135,7 +135,7 @@ const [isOpen, setIsOpen] = useState(false);
                     <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Become A Design Partner</Link></li>
                     <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Become A Franchise</Link></li>
                     <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>FAQs</Link></li>
-                    <li><Link className="dropdown-item" to="#"  onClick={closeNavbar}>Contact Us</Link></li>
+                    <li><Link className="dropdown-item" to="/contactus"  onClick={closeNavbar}>Contact Us</Link></li>
                   </ul>
                 </li>
 

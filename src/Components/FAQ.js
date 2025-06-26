@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const FAQ = () => {
   return (
+    <div id='faq'>
     <div className='faq container'>
         <h2 className='faq-heading'>Frequently asked questions</h2>
         {/* <Link to="/contactForm" classNameName="btn btn-warning">Enquiry Form</Link> */}
@@ -88,6 +89,7 @@ const FAQ = () => {
             </div>
           </div> */}
         </div>
+    </div>
     </div>
   )
 }

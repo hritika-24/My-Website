@@ -1,0 +1,193 @@
+.contactus_heading{
+   /* border: 2px solid red; */
+   padding-top:150px;
+   
+}
+
+.contactus{
+    /* border: 2px solid red; */
+    /* padding-top:150px; */
+    display: flex;
+
+}
+.contactus .contactus_links,
+.contactus .contact_form{
+    /* border: 2px solid rgb(12, 17, 12); */
+    width: 50%;
+    padding: 10px;
+}
+
+.contactus .contactus_links p a{
+    line-height: 50px;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    text-decoration: none;
+    color:black
+}
+
+.contactus .social_Links{
+    display: flex;
+    margin-top: 27px;
+}
+.contactus .social_Links p,.contactus .social_Links p a{
+    font-size: 20px;
+    color: black;
+}
+.contactus .social_Links a{
+    /* border: 2px solid red; */
+    font-size: 18px;
+    margin-left: 5px;
+    background-color: goldenrod;
+    color:white;
+    padding: 2px 8px 2px 8px;
+    margin-bottom: 20px;
+}
+.contactus .social_Links a:hover{
+    background-color: white;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
+
+.contact_form form .name input,
+.contact_form form .phone input,
+.contact_form form .message textarea
+
+{
+    width: 100%;
+    background-color: rgb(236, 227, 227);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+}
+
+.contact_form form .submit input{
+    width: 100%;
+    border: none;
+    outline:none;
+    padding: 10px;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 10px;
+
+}
+.contact_form form .submit input:hover{
+    background-color: white;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
+
+.address_and_map{
+    display: flex;
+}
+.address_and_map .address{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.address_and_map .map{
+    /* border: 2px solid rgb(80, 16, 231); */
+    width: 50%;
+}
+.address_and_map .address .btn{
+    background-color: goldenrod;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px 50px;
+
+}
+.address_and_map .address .btn:hover{
+    color: goldenrod;
+    background-color: white;
+    border: 1px solid goldenrod;
+}
+
+/* mobile view */
+@media(max-width:900px){
+.contactus_heading {
+    font-size: 18px !important;
+
+}
+.contactus h3{
+    font-size: 18px !important;
+}
+.contactus p{
+    font-size: 16px !important;
+}
+.contactus{
+    /* border: 2px solid red; */
+    /* padding-top:150px; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactus .contact_form{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 2px rgb(233, 227, 227);
+
+}
+
+.contactus .contactus_links,
+.contactus .contact_form{
+    /* border: 2px solid rgb(12, 17, 12); */
+    width: 100%;
+    padding:0px;
+}
+.contactus .contact_form{
+    padding: 10px;
+}
+
+.address_and_map{
+    display: flex;
+    flex-direction: column;
+}
+.address_and_map .address,
+.address_and_map .map{
+    width: 100%;
+}
+.address_and_map .address .btn{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+
+}
+.contactus .contactus_links p a {
+    font-size: 16px !important;
+}
+.contactus .social_Links p{
+    font-size: 16px !important;
+}
+.contactus .social_Links a{
+    /* border: 2px solid red; */
+    font-size: 16px;
+    margin-left: 5px;
+    background-color: goldenrod;
+    color:white;
+    padding: 2px 8px 2px 8px;
+    margin-bottom: 20px;
+}
+.address_and_map .address .btn{
+    font-size: 16px;
+}
+.add_and_map_heading{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: -18px;
+}
+.address_and_map .address h3
+{
+  font-size: 18px !important;
+
+}
+.address_and_map .address p{
+    font-size: 16px !important;
+}
+}
+
